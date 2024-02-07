@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para conteúdo do nosso site*/
+
+html, body{
+    height: 100%; /*Para definir altura automatica de acordo com a area de tela*/
+}
+
+.artigo{
+    width: 1280px;
+    max-width: 5000px;;
+    height: auto;
+    margin: 40px auto;
+    text-align: center;
+    background-color: rgb(200, 200, 200);
+    padding: 40px;
+}
+
+.artigo h1{
+    color: rgb(66, 149, 244);
+    font-size: 25px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    /*font-variant: small-caps;*/
+}
+
+.artigo p{
+    font-size: 17px;
+    font-family: italic;
+    font-style: normal;
+    font-weight: bold;
+    color: darkgoldenrod;
+    line-height: 40px;
+    margin-top: 12px;
+    text-align: left;
+}
+
+/*.artigo p{
+    letter-spacing: 20px;
+}*/

@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Estilo para conteúdo do nosso site*/
+
+.artigo{
+    width: 1280px;
+    margin: 40px auto;
+    text-align: center;
+}
