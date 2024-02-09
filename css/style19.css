@@ -1,0 +1,15 @@
+html, body{
+    height: 100%;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+}
+
+.box span{
+    width: inherit;
+    height: inherit;
+    background-color: inherit;
+}
