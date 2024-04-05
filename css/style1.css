@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Estilo para conteúdo do nosso site*/
+
+.artigo{
+    width: 1280px;
+    margin: 40px auto;
+    text-align: center;
+}

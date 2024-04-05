@@ -1,0 +1,16 @@
+html, box{
+    height: 100%;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    display: none;
+    background-color: gray;
+    overflow-x: auto;
+}
+
+.box p{
+    width: 500px;
+}
