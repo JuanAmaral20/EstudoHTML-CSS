@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.bg{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+
+    /*BACKGROUND*/
+    background-color: red;
+    background-image: url('/img/Killua-Godspeed-Explained-910x455.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+

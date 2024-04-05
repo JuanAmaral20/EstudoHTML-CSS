@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* a[href="https://www.youtube.com/"]{
+    background-color: yellow;
+} */
+
+/* ACHE A PALAVRA GOOGLE EM QUALQUER LUGAR */
+
+/* a[href*="youtube"]{
+    background-color: red;
+} */
+
+/* QUANDO COMEÇAMOS COM A PALAVRA GOOGLE SEGUIDO POR UM ACENTO
+
+a[attr|="google"]{
+    background-color: blue;
+} */
+
+/* QUANDO COMEÇAMOS COM A PALAVRA
+a[attr^="goo"]{
+    background-color: black;
+} */
+
+/* QUANDO TERMINAMOS COM A PALAVRA
+a[attr$="le"]{
+    background-color: greenyellow;
+} */
+
+input[type=text]{
+    background-color: green;
+    font-size: large;
+}
+
