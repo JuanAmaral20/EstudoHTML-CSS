@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.bg{
+    /* width: 100%;
+    margin: 0 auto;
+    height: 50vh;
+    background-image: url('/img/sunset.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: red;
+    background-repeat: no-repeat; */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    */
+}
+
+.box{
+    width: 100%;
+    margin: 80px auto;
+    text-align: center;
+    background-color: rgb(200, 200, 200);
+
+}
+
+.item{
+    margin-right: -4px;
+    display: inline-block;
+    width: 33.333%;
+}
+
+.item img{
+    width: 16%;
+}
+
