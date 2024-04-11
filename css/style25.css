@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+ul{
+    list-style: inside;
+
+}
+
+/* ul li:nth-last-of-type(2){
+    color: red;
+} 
+-DE ACORDO COM O TIPO DO ELEMENTO
+*/
+
+/* ul li:nth-child(4){
+    color: blueviolet;
+} 
+-DE ACORDO COM OS FILHOS
+*/
+
+.box{
+    width: 100%;
+}
+
+.box > div{
+    float: left;
+    box-sizing: border-box;
+    width: 33.3%;
+    height: 400px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+p:empty{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+}
+
+p.p::after{
+    content: 'juan';
+}
+
+/* 
+-NEGAÇÃO! APLIQUE O ESTILO PARA TODAS AS DIVS QUE NÃO TENHA A CLASSE ONE
+.box div:not(.one){
+    background-color: gold;
+} */
+
+/* .box div:last-of-type{
+    background-color: chartreuse;
+} */
+
+/* .box div:last-of-type,.box p:last-of-type{
+    background-color: darkorange;
+} 
+-PEGAMOS O ULTIMO ELEMENTO DO MESMO TIPO
+*/
+
+/* .item div:last-of-type p{
+    color:darkgreen
+} */
