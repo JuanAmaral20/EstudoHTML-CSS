@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.teste, .teste1, .teste2{
+    width: 300px;
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 30px;
+    height: 30px;
+    /* background-color: #ccc; */
+}
+
+.teste1{
+    background-color: rgb(98, 98, 98);
+}
+
+.teste2{
+    background-color: rgb(58, 58, 58);
+}
+
+/* .teste:hover{
+    background-color: blue;
+} 
+-PARA QUANDO PASSAMOS O MOUSE EM CIMA DE DETERMINADO ELEMENTO
+*/
+
+/* .teste:active{
+    background-color: black;
+} 
+-SERVE PARA QUANDO ESTAMOS PRECIONANDO O MOUSE EM CIMA DE DETERMINADO ELEMENTO
+*/
+
+/* .teste:focus{
+    background-color: red;
+} 
+-SERVE PARA QUANDO CLICAMOS E FOCAMOS O NOSSO ELEMENTO DO FORMULÁRIO
+*/
+
+/* .link1:link{
+    color: green;
+} */
+
