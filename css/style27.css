@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+/* 
+.menu{
+    background-color: darkblue;
+    height: 90px;
+}
+
+.menu-fixed{
+    text-align: center;
+    padding: 30px;
+    word-spacing: 80px;
+    display: block;
+}
+
+.menu-fixed a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    user-select: none;
+} */
+
+
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form fieldset{
+    padding: 20px 40px;
+    border: 3px solid black;
+}
+
+form legend{
+    text-align: left;
+    font-size: 17px;
+    color: rgb(130, 130, 130);
+}
+
+form input[type=text]{
+    display: inline-block;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 13px;
+    outline: none;
+}
+
+
+form select{
+    width: calc(80% + 26px);
+    margin-top: 30px;
+    padding: 10px 13px;
+    display: inline-block;
+    outline: none;
+}
+
+form h2{
+    margin-top: 20px; 
+    color: rgb(130, 130, 130);  
+}
+
+.radio-input{
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.radio-input span{
+    margin-left: 13px;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
